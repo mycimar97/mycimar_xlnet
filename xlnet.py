@@ -7,6 +7,8 @@ import sentencepiece as spm
 from xlnet_lib import *
 import xlnet_funcs
 import tensorflow as tf
+import nltk
+nltk.download('stopwords')
 from sklearn.cluster import KMeans
 from tqdm import tqdm
 from nltk.corpus import stopwords
